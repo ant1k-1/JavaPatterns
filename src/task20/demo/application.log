@@ -1,0 +1,228 @@
+598  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 8.0.0.Final
+633  [restartedMain] INFO  com.example.demo.DemoApplication
+                – Starting DemoApplication using Java 17 with PID 10260 (D:\me\University\JavaPatterns\src\task20\demo\build\classes\java\main started by anton in D:\me\University\JavaPatterns\src\task20\demo)
+634  [restartedMain] INFO  com.example.demo.DemoApplication
+                – No active profile set, falling back to 1 default profile: "default"
+682  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+682  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1256 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1299 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2199 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+2207 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2207 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2207 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.8]
+2253 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2254 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1570 ms
+2458 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2615 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b4a2cb
+2617 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2649 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2694 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+2989 [restartedMain] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+3400 [restartedMain] INFO  o.h.tuple.entity.EntityMetamodel
+                – HHH000157: Lazy property fetching available for: com.example.demo.entity.Doctor
+3699 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3708 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4074 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4211 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page: class path resource [static/index.html]
+4579 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+4584 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 13 endpoint(s) beneath base path '/actuator'
+4635 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+4651 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+4665 [restartedMain] INFO  com.example.demo.DemoApplication
+                – Started DemoApplication in 4.382 seconds (process running for 5.035)
+4921 [RMI TCP Connection(2)-172.22.144.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4922 [RMI TCP Connection(2)-172.22.144.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+4923 [RMI TCP Connection(2)-172.22.144.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+25886 [http-nio-8080-exec-1] INFO  com.example.demo.aspects.LogAspect
+                – Time: 2023-04-25T00:48:10.426379
+25887 [http-nio-8080-exec-1] INFO  com.example.demo.aspects.LogAspect
+                – Signature: List com.example.demo.service.DoctorService.getDoctors()
+25888 [http-nio-8080-exec-1] INFO  com.example.demo.aspects.LogAspect
+                – Parameters: {}
+64618 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+64621 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+64628 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+1090 [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 8.0.0.Final
+1120 [restartedMain] INFO  com.example.demo.DemoApplication
+                – Starting DemoApplication using Java 17 with PID 11680 (C:\Users\Anton\Desktop\University\JavaPatterns\src\task20\demo\build\classes\java\main started by Anton in C:\Users\Anton\Desktop\University\JavaPatterns\src\task20\demo)
+1122 [restartedMain] INFO  com.example.demo.DemoApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1178 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1178 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2354 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2410 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+3408 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3416 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3417 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3417 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.8]
+3530 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3530 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2351 ms
+3776 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3921 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3018fd58
+3923 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+3957 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4001 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+4305 [restartedMain] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4751 [restartedMain] INFO  o.h.tuple.entity.EntityMetamodel
+                – HHH000157: Lazy property fetching available for: com.example.demo.entity.Doctor
+5112 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5123 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5570 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5719 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page: class path resource [static/index.html]
+6134 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+6141 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 13 endpoint(s) beneath base path '/actuator'
+6206 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6224 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6240 [restartedMain] INFO  com.example.demo.DemoApplication
+                – Started DemoApplication in 5.586 seconds (process running for 6.795)
+18139 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+18139 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+18141 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+18198 [http-nio-8080-exec-2] INFO  com.example.demo.aspects.LogAspect
+                – Time: 2023-04-28T13:02:20.936154500
+18200 [http-nio-8080-exec-2] INFO  com.example.demo.aspects.LogAspect
+                – Signature: List com.example.demo.service.DoctorService.getDoctors()
+18200 [http-nio-8080-exec-2] INFO  com.example.demo.aspects.LogAspect
+                – Parameters: {}
+106371 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+106375 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+106383 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+879  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 8.0.0.Final
+924  [restartedMain] INFO  com.example.demo.DemoApplication
+                – Starting DemoApplication using Java 17 with PID 21984 (C:\Users\Anton\Desktop\University\JavaPatterns\src\task20\demo\build\classes\java\main started by Anton in C:\Users\Anton\Desktop\University\JavaPatterns\src\task20\demo)
+926  [restartedMain] INFO  com.example.demo.DemoApplication
+                – No active profile set, falling back to 1 default profile: "default"
+982  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+983  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1860 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1925 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2927 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+2935 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2936 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2937 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.8]
+3008 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3008 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2025 ms
+3256 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3394 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5240361e
+3396 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+3429 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3474 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+3778 [restartedMain] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4188 [restartedMain] INFO  o.h.tuple.entity.EntityMetamodel
+                – HHH000157: Lazy property fetching available for: com.example.demo.entity.Doctor
+4545 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4554 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5005 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5161 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page: class path resource [static/index.html]
+5600 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+5607 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 13 endpoint(s) beneath base path '/actuator'
+5671 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+5689 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+5705 [restartedMain] INFO  com.example.demo.DemoApplication
+                – Started DemoApplication in 5.256 seconds (process running for 6.182)
+11073 [http-nio-8080-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+11073 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+11075 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+11117 [http-nio-8080-exec-6] INFO  com.example.demo.aspects.LogAspect
+                – Time: 2023-04-28T13:38:57.660895
+11119 [http-nio-8080-exec-6] INFO  com.example.demo.aspects.LogAspect
+                – Signature: Doctor com.example.demo.service.DoctorService.getDoctorById(Long)
+11119 [http-nio-8080-exec-6] INFO  com.example.demo.aspects.LogAspect
+                – Parameters: 1
+24874 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+24878 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+24885 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.

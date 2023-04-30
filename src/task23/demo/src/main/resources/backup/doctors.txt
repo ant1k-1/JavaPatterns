@@ -1,0 +1,2 @@
+Doctor{id=1, firstName='Ivan', lastName='Ivanov', position=1}
+Doctor{id=2, firstName='Petr', lastName='Petrov', position=2}
